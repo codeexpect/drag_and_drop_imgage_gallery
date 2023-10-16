@@ -41,7 +41,7 @@ const onDragEnd = (event) =>{
     await signOut(auth)
     localStorage.removeItem('token');
     localStorage.removeItem('user');
-    navigate('/')
+    navigate('/login')
   }
 
 
